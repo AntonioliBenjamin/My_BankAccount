@@ -48,3 +48,5 @@ bankAccountRouter.get("/:iban", (req: Request, res: Response) => {
 });
 
 export { bankAccountRouter };
+
+//ok

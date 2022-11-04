@@ -5,3 +5,5 @@ export interface ProfileRepository {
   getById(userId: string): ProfileProperties;
   exist(email: string, phoneNumber: string): boolean;
 }
+
+
