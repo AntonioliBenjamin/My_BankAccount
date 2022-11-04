@@ -11,3 +11,4 @@ export class InMemoryBankAccountRepository implements BankAccountRepository {
     return bankAccountDb.get(iban);
   }
 }
+

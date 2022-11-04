@@ -4,3 +4,5 @@ export interface BankAccountRepository {
   save(userId: string, bankAccount: BankAccountProperties): void;
   getByIban(userId: string): BankAccountProperties;
 }
+
+
